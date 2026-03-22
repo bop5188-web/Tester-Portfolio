@@ -123,6 +123,7 @@ body {
 .work-section {
   position: relative;
   z-index: 3;
+  margin-top: 100vh;
   padding: 4rem 1.5rem 5rem;
   background: var(--bg-page);
 }
