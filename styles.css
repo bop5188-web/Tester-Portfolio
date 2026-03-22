@@ -103,23 +103,16 @@ body {
   color: var(--text);
 }
 
-/* --- Hero: Spline embed only (no extra wrapper div) --- */
-.hero {
-  position: relative;   
-  inset: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: #0a0a0a;
-  z-index: 1;
-}
 
-.hero spline-viewer {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+/* --- Spline fills the page without a hero wrapper --- */
+spline-viewer {
   display: block;
+  width: 100%;
+  height: 100vh;       /* full viewport height */
+  max-height: 100vh;   /* prevent overflow */
+  object-fit: cover;   /* ensure full coverage */
+  position: relative;  /* keep it in flow */
+  z-index: 1;
 }
 
 /* --- Work — white panel, cards float in on scroll --- */
