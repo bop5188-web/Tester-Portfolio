@@ -17,6 +17,9 @@ body {
   background: var(--bg-page);
   line-height: 1.55;
 }
+body {
+  overflow-x: hidden;
+}
 
 :root {
   --bg-page: #ffffff;
