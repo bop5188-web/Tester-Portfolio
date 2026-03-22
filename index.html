@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="page-home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brielle Picard — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.12.70/build/spline-viewer.js"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <svg
+      class="case-study-defs"
+      aria-hidden="true"
+      focusable="false"
+      width="0"
+      height="0"
+      style="position: absolute"
+    >
+      <defs>
+        <linearGradient
+          id="case-trace-grad"
+          x1="0%"
+          y1="0%"
+          x2="100%"
+          y2="100%"
+        >
+          <stop offset="0%" stop-color="#f0abfc" />
+          <stop offset="38%" stop-color="#e879f9" />
+          <stop offset="72%" stop-color="#7c3aed" />
+          <stop offset="100%" stop-color="#22d3ee" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="top-chrome" id="topChrome" aria-hidden="true">
+      <div
+        class="case-scroll-track case-scroll-track--minimal case-scroll-track--home-top"
+        id="caseScrollTrack"
+      >
+        <div
+          class="case-scroll-track__rail"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+          aria-label="Progress through case studies"
+        >
+          <div class="case-scroll-track__fill" id="caseScrollFill"></div>
+        </div>
+      </div>
+      <header class="site-nav site-nav--home">
+        <a href="index.html" class="site-nav__brand wave-name" data-home-link>
+          <span class="wave-name__letters" aria-label="Brielle Picard">
+            <span style="--i: 0">B</span><span style="--i: 1">r</span
+            ><span style="--i: 2">i</span><span style="--i: 3">e</span
+            ><span style="--i: 4">l</span><span style="--i: 5">l</span
+            ><span style="--i: 6">e</span><span class="wave-name__gap"></span
+            ><span style="--i: 7">P</span><span style="--i: 8">i</span
+            ><span style="--i: 9">c</span><span style="--i: 10">a</span
+            ><span style="--i: 11">r</span><span style="--i: 12">d</span>
+          </span>
+        </a>
+        <nav class="site-nav__links">
+          <a href="work.html">Work</a>
+          <a href="index.html" class="js-home-top" data-home-link>Home</a>
+        </nav>
+      </header>
+    </div>
+
+    <div class="home-hero">
+      <spline-viewer
+        url="https://prod.spline.design/DETcUaJwXMnaTceU/scene.splinecode"
+      ></spline-viewer>
+
+      <a class="scroll-into-work" href="#main">
+        <span class="scroll-into-work__text">Scroll</span>
+        <span class="scroll-into-work__chev" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <main id="main" class="home-below">
+      <section class="case-study-stack case-study-stack--scatter" aria-label="Case studies">
+        <div class="case-study-snap" id="case-snap-1">
+          <article
+            class="case-study-slide"
+            style="--float: 0; --off-x: -3.5rem; --off-y: -5.25rem"
+          >
+            <button
+              type="button"
+              class="case-study-slide__hit case-hit"
+              data-case-url="work/project-alpha.html"
+              data-case-title="Project Alpha"
+              aria-label="Open Project Alpha — full case study"
+            >
+              <svg
+                class="case-study-frame-trace"
+                viewBox="0 0 320 100"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <rect
+                  class="case-study-frame-trace__path"
+                  x="1.5"
+                  y="1.5"
+                  width="317"
+                  height="97"
+                  rx="10"
+                  ry="10"
+                  fill="none"
+                  stroke="url(#case-trace-grad)"
+                  stroke-width="2.25"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  pathLength="100"
+                />
+              </svg>
+              <div class="case-study-card__inner">
+                <div class="case-study-card__media" aria-hidden="true"></div>
+                <p class="case-study-card__label">Alpha</p>
+              </div>
+            </button>
+          </article>
+        </div>
+        <div class="case-study-snap" id="case-snap-2">
+          <article
+            class="case-study-slide"
+            style="--float: 1; --off-x: 4rem; --off-y: -4.75rem"
+          >
+            <button
+              type="button"
+              class="case-study-slide__hit case-hit"
+              data-case-url="work/project-beta.html"
+              data-case-title="Project Beta"
+              aria-label="Open Project Beta — full case study"
+            >
+              <svg
+                class="case-study-frame-trace"
+                viewBox="0 0 320 100"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <rect
+                  class="case-study-frame-trace__path"
+                  x="1.5"
+                  y="1.5"
+                  width="317"
+                  height="97"
+                  rx="10"
+                  ry="10"
+                  fill="none"
+                  stroke="url(#case-trace-grad)"
+                  stroke-width="2.25"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  pathLength="100"
+                />
+              </svg>
+              <div class="case-study-card__inner">
+                <div class="case-study-card__media" aria-hidden="true"></div>
+                <p class="case-study-card__label">Beta</p>
+              </div>
+            </button>
+          </article>
+        </div>
+        <div class="case-study-snap" id="case-snap-3">
+          <article
+            class="case-study-slide"
+            style="--float: 2; --off-x: -4.25rem; --off-y: 1.75rem"
+          >
+            <button
+              type="button"
+              class="case-study-slide__hit case-hit"
+              data-case-url="work/project-gamma.html"
+              data-case-title="Project Gamma"
+              aria-label="Open Project Gamma — full case study"
+            >
+              <svg
+                class="case-study-frame-trace"
+                viewBox="0 0 320 100"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <rect
+                  class="case-study-frame-trace__path"
+                  x="1.5"
+                  y="1.5"
+                  width="317"
+                  height="97"
+                  rx="10"
+                  ry="10"
+                  fill="none"
+                  stroke="url(#case-trace-grad)"
+                  stroke-width="2.25"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  pathLength="100"
+                />
+              </svg>
+              <div class="case-study-card__inner">
+                <div class="case-study-card__media" aria-hidden="true"></div>
+                <p class="case-study-card__label">Gamma</p>
+              </div>
+            </button>
+          </article>
+        </div>
+        <div class="case-study-snap" id="case-snap-4">
+          <article
+            class="case-study-slide"
+            style="--float: 3; --off-x: 3.75rem; --off-y: 3.5rem"
+          >
+            <button
+              type="button"
+              class="case-study-slide__hit case-hit"
+              data-case-url="work/project-delta.html"
+              data-case-title="Project Delta"
+              aria-label="Open Project Delta — full case study"
+            >
+              <svg
+                class="case-study-frame-trace"
+                viewBox="0 0 320 100"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <rect
+                  class="case-study-frame-trace__path"
+                  x="1.5"
+                  y="1.5"
+                  width="317"
+                  height="97"
+                  rx="10"
+                  ry="10"
+                  fill="none"
+                  stroke="url(#case-trace-grad)"
+                  stroke-width="2.25"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  pathLength="100"
+                />
+              </svg>
+              <div class="case-study-card__inner">
+                <div class="case-study-card__media" aria-hidden="true"></div>
+                <p class="case-study-card__label">Delta</p>
+              </div>
+            </button>
+          </article>
+        </div>
+        <div class="case-study-snap" id="case-snap-5">
+          <article
+            class="case-study-slide"
+            style="--float: 4; --off-x: -1.25rem; --off-y: 6.5rem"
+          >
+            <button
+              type="button"
+              class="case-study-slide__hit case-hit"
+              data-case-url="work/project-epsilon.html"
+              data-case-title="Project Epsilon"
+              aria-label="Open Project Epsilon — full case study"
+            >
+              <svg
+                class="case-study-frame-trace"
+                viewBox="0 0 320 100"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <rect
+                  class="case-study-frame-trace__path"
+                  x="1.5"
+                  y="1.5"
+                  width="317"
+                  height="97"
+                  rx="10"
+                  ry="10"
+                  fill="none"
+                  stroke="url(#case-trace-grad)"
+                  stroke-width="2.25"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  pathLength="100"
+                />
+              </svg>
+              <div class="case-study-card__inner">
+                <div class="case-study-card__media" aria-hidden="true"></div>
+                <p class="case-study-card__label">Epsilon</p>
+              </div>
+            </button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <nav
+      class="case-snap-dock"
+      id="caseSnapDock"
+      aria-label="Jump to a case study"
+    >
+      <span class="case-snap-dock__title">Cases</span>
+      <div class="case-snap-dock__buttons" role="group" aria-label="Case study sections">
+        <button
+          type="button"
+          class="case-snap-dock__btn"
+          data-case-snap-target="case-snap-1"
+          aria-label="Focus case Alpha"
+        >
+          1
+        </button>
+        <button
+          type="button"
+          class="case-snap-dock__btn"
+          data-case-snap-target="case-snap-2"
+          aria-label="Focus case Beta"
+        >
+          2
+        </button>
+        <button
+          type="button"
+          class="case-snap-dock__btn"
+          data-case-snap-target="case-snap-3"
+          aria-label="Focus case Gamma"
+        >
+          3
+        </button>
+        <button
+          type="button"
+          class="case-snap-dock__btn"
+          data-case-snap-target="case-snap-4"
+          aria-label="Focus case Delta"
+        >
+          4
+        </button>
+        <button
+          type="button"
+          class="case-snap-dock__btn"
+          data-case-snap-target="case-snap-5"
+          aria-label="Focus case Epsilon"
+        >
+          5
+        </button>
+      </div>
+    </nav>
+
+    <footer id="contact" class="site-footer">
+      <p class="footer-text">
+        <a href="mailto:you@example.com">you@example.com</a>
+        ·
+        <a href="https://github.com/yourusername" rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
+    </footer>
+
+    <div
+      id="caseStudyPanel"
+      class="case-study-panel"
+      hidden
+      aria-hidden="true"
+    >
+      <div class="case-study-panel__backdrop" data-close-case-panel></div>
+      <div
+        class="case-study-panel__shell"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="caseStudyPanelHeading"
+      >
+        <div class="case-study-panel__chrome">
+          <h2 id="caseStudyPanelHeading" class="case-study-panel__heading">
+            Case study
+          </h2>
+          <button
+            type="button"
+            class="case-study-panel__close"
+            data-close-case-panel
+            aria-label="Close panel"
+          >
+            Close
+          </button>
+        </div>
+        <iframe
+          class="case-study-panel__frame"
+          title="Case study"
+          src="about:blank"
+        ></iframe>
+      </div>
+    </div>
+
+    <div
+      id="caseStudyCursor"
+      class="case-study-cursor"
+      aria-hidden="true"
+    >
+      <span class="case-study-cursor__circle"></span>
+      <span class="case-study-cursor__arrow"></span>
+    </div>
+  </body>
+</html>
