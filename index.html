@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="page-home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brielle Picard — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.12.70/build/spline-viewer.js"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div
+      class="top-chrome"
+      id="topChrome"
+      aria-hidden="true"
+    >
+      <header class="site-nav site-nav--home">
+        <a href="index.html" class="site-nav__brand wave-name" data-home-link>
+          <span class="wave-name__letters" aria-label="Brielle Picard">
+            <span style="--i: 0">B</span><span style="--i: 1">r</span
+            ><span style="--i: 2">i</span><span style="--i: 3">e</span
+            ><span style="--i: 4">l</span><span style="--i: 5">l</span
+            ><span style="--i: 6">e</span><span class="wave-name__gap"></span
+            ><span style="--i: 7">P</span><span style="--i: 8">i</span
+            ><span style="--i: 9">c</span><span style="--i: 10">a</span
+            ><span style="--i: 11">r</span><span style="--i: 12">d</span>
+          </span>
+        </a>
+        <nav class="site-nav__links">
+          <a href="work.html">Work</a>
+          <a href="index.html" class="js-home-top" data-home-link>Home</a>
+        </nav>
+      </header>
+      <div
+        class="case-scroll-track case-scroll-track--minimal"
+        id="caseScrollTrack"
+      >
+        <div
+          class="case-scroll-track__rail"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+          aria-label="Scroll progress on this page"
+        >
+          <div class="case-scroll-track__fill" id="caseScrollFill"></div>
+        </div>
+      </div>
+    </div>
+
+    <spline-viewer
+      url="https://prod.spline.design/DETcUaJwXMnaTceU/scene.splinecode"
+    ></spline-viewer>
+
+    <a class="scroll-into-work" href="#main">
+      <span class="scroll-into-work__text">Scroll</span>
+      <span class="scroll-into-work__chev" aria-hidden="true"></span>
+    </a>
+
+    <main id="main" class="home-below">
+      <div class="home-below__inner">
+        <p class="home-below__lede">
+          Designer and builder — explore selected case studies on the work page.
+        </p>
+        <a class="home-below__cta" href="work.html">Open work →</a>
+      </div>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <p class="footer-text">
+        <a href="mailto:you@example.com">you@example.com</a>
+        ·
+        <a href="https://github.com/yourusername" rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
