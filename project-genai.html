@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="page-project">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applied Generative AI — Brielle Picard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=4" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="page-project" data-page="work">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div
+      class="top-chrome top-chrome--always top-chrome--about-only"
+      id="topChrome"
+      aria-hidden="false"
+    >
+      <header class="site-nav site-nav--about">
+        <a href="index.html" class="site-nav__brand wave-name" data-home-link>
+          <span class="wave-name__letters" aria-label="Brielle Picard">
+            <span style="--i: 0">B</span><span style="--i: 1">r</span
+            ><span style="--i: 2">i</span><span style="--i: 3">e</span
+            ><span style="--i: 4">l</span><span style="--i: 5">l</span
+            ><span style="--i: 6">e</span><span class="wave-name__gap"></span
+            ><span style="--i: 7">P</span><span style="--i: 8">i</span
+            ><span style="--i: 9">c</span><span style="--i: 10">a</span
+            ><span style="--i: 11">r</span><span style="--i: 12">d</span>
+          </span>
+        </a>
+        <nav class="site-nav__links">
+          <a href="index.html" class="js-home-top" data-home-link>Home</a>
+          <a href="work.html" aria-current="page">Projects</a>
+          <a href="about.html">About</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="assets/resume.pdf"
+            download="Brielle-Picard-Resume.pdf"
+            type="application/pdf"
+            data-resume-download
+            >Resume</a
+          >
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+    </div>
+
+    <main id="main" class="work-page">
+      <div class="work-page-inner">
+        <a class="work-back" href="work.html">← Projects</a>
+        <h1 class="work-page-title">Applied Generative AI</h1>
+
+        <article class="work-main-box case-study">
+          <p class="case-kicker">IST 402 · Solo build · OpenAI + LangChain</p>
+          <p class="case-outcome">
+            I built a solo art-gallery chatbot (Streamlit + LangChain + OpenAI) that runs locally —
+            my main hands-on GenAI project, separate from my client work.
+          </p>
+          <p class="case-meta">
+            Applied Generative AI (IST 402) · Other class projects were group; this gallery bot was
+            solo · Stack: Python, Streamlit, LangChain, OpenAI (gpt-3.5-turbo)
+          </p>
+
+          <ul class="case-stats" aria-label="Project proof">
+            <li>
+              <span class="case-stats__num">Solo</span>
+              <span class="case-stats__label">end-to-end gallery bot</span>
+            </li>
+            <li>
+              <span class="case-stats__num">OpenAI</span>
+              <span class="case-stats__label">API + LangChain chains</span>
+            </li>
+            <li>
+              <span class="case-stats__num">Local</span>
+              <span class="case-stats__label">demo (not public deploy)</span>
+            </li>
+            <li>
+              <span class="case-stats__num">UI fixes</span>
+              <span class="case-stats__label">debugging I owned</span>
+            </li>
+          </ul>
+
+          <ul class="case-skills" aria-label="Skills used">
+            <li>Python</li>
+            <li>Streamlit</li>
+            <li>LangChain</li>
+            <li>OpenAI API</li>
+            <li>Prompt design</li>
+            <li>UI debugging</li>
+          </ul>
+
+          <h2 class="work-main-box__heading">Problem</h2>
+          <p>
+            I needed a working GenAI demo I fully understood — not a group slide deck — that could
+            answer gallery questions through a real chat UI wired to a model.
+          </p>
+
+          <h2 class="work-main-box__heading">What I built</h2>
+          <ul class="case-list">
+            <li>Coded the full app myself (Streamlit UI, LangChain chain, prompts, OpenAI calls).</li>
+            <li>Ran it locally with an API key for demos and iteration.</li>
+            <li>Debugged UI issues until the chat flow behaved the way I wanted.</li>
+          </ul>
+
+          <h2 class="work-main-box__heading">How I used AI tools</h2>
+          <div class="case-ai">
+            <p style="margin: 0">
+              The product uses OpenAI. For building, I also used Claude, Gemini, ChatGPT, and Cursor
+              to unblock debugging — then I verified the code myself. This page is where I talk about
+              AI depth; my client projects aren’t “AI did it.”
+            </p>
+          </div>
+
+          <h2 class="work-main-box__heading">Result</h2>
+          <p>
+            A solo, runnable gallery Q&amp;A app I can explain line by line — proof I can wire a
+            model into a simple product surface and fix what breaks.
+          </p>
+
+          <nav class="case-links" aria-label="Links">
+            <a href="work.html">All projects</a>
+            <a href="contact.html">Ask about the stack</a>
+          </nav>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
